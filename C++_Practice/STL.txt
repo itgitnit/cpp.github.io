@@ -1,0 +1,26 @@
+Introduction To STL :-
+STL is used because it is as good idea not to reinvent the wheel.
+
+Components Of STL :-
+1. Containers :- -> Object which Stores Data.
+                  -> Use Template Classes.
+ Types Of Containers -> a. Sequence Containers. -> Stores data in linear fashion likewise Vector, List, Dequeue
+             => Vector -> Random Access = Fast, Middle insertion/deletion = Slow, Deletion/Insertion at the end = Fast.
+
+             => List -> Random Access = Slow, Middle insertion/deletion = Fast, Deletion/Insertion at the end = Fast.
+
+                        b. Associative Containers. -> Direct Access like Tree, Set/Multiset, Map/Multimap.
+                        => All operations are fast except random access.
+                    
+                        c. Derived Containers. -> Real world modelling like Stack, Queue, Priority-Queue.
+                        => Depends on Data structure.
+
+               
+2. Algorithms :- -> Procedure to process data. 
+                 -> Sorting.
+                 -> Searching.
+                 -> Use Template Functions.
+
+3. Iterators :- -> Object points to an element in a container.
+                -> Handled just like pointers.
+                -> connects algo with containers.
